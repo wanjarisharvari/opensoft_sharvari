@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener</title>
+</head>
+<body>
+  <h1>URL Shortener</h1>
+  <form id="urlForm">
+    <label for="originalUrl">Original URL:</label><br>
+    <input type="text" id="originalUrl" name="originalUrl" required><br>
+    <label for="customString">Custom String (optional):</label><br>
+    <input type="text" id="customString" name="customString"><br>
+    <button type="submit">Shorten URL</button>
+  </form>
+  <div id="shortenedUrl"></div>
+
+  <script>
+    document.getElementById('urlForm').addEventListener('submit', async function(event) {
+      event.preventDefault();
+      const formData = new FormData(this);
+      const originalUrl = formData.get('originalUrl');
+      const customString = formData.get('customString');
+
+      const response = await fetch('/shorten', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ originalUrl, customString })
+      });
+
+      const data = await response.json();
+      
+      document.getElementById('shortenedUrl').innerHTML = `<p>Shortened URL: <a href="${data.shortUrl}" target="_blank">${data.shortUrl}</a></p>`;
+
+      if(data.shortUrl == undefined){
+        document.getElementById('shortenedUrl').innerHTML = '<p>The custom string is already in use !!!</p>'
+      }
+      
+    });
+  </script>
+</body>
+</html>
