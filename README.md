@@ -5,8 +5,8 @@ This repo consist of code for the url shortner website
 + features :
            the user has the freedom to provide custom strings and the short url will consist of that string
 + usage :
-           - install all the code in a seperate directry
-           - to run the code type node index.js
+           -install all the code in a seperate directry
+           -to run the code type node index.js
            - go to your browswer and type localhost:8001
            - the functional website will open
 + error handeling :
