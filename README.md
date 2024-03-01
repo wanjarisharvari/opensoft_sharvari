@@ -10,7 +10,7 @@ This repo consist of code for the url shortner website
   - go to your browswer and type localhost:8001
   - the functional website will open
 + error handeling :
-           - if the user provide a same custom string for two different url it shows error
-           - if the some website is being accessed by a short url which does not exist it shows error
-           - a same website can be accessed by two different custom strings
+  - if the user provide a same custom string for two different url it shows error
+  - if the some website is being accessed by a short url which does not exist it shows error
+  - a same website can be accessed by two different custom strings
 
