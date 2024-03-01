@@ -13,4 +13,5 @@ This repo consist of code for the url shortner website
   - if the user provide a same custom string for two different url it shows error
   - if the some website is being accessed by a short url which does not exist it shows error
   - a same website can be accessed by two different custom strings
++ deployed website : https://opensoft-sharvari.vercel.app/
 
