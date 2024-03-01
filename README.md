@@ -5,12 +5,12 @@ This repo consist of code for the url shortner website
 + features :
            the user has the freedom to provide custom strings and the short url will consist of that string
 + usage :
-           * install all the code in a seperate directry
-           * to run the code type node index.js
-           * go to your browswer and type localhost:8001
-           * the functional website will open
+           - install all the code in a seperate directry
+           - to run the code type node index.js
+           - go to your browswer and type localhost:8001
+           - the functional website will open
 + error handeling :
-           * if the user provide a same custom string for two different url it shows error
-           * if the some website is being accessed by a short url which does not exist it shows error
-           * a same website can be accessed by two different custom strings
+           - if the user provide a same custom string for two different url it shows error
+           - if the some website is being accessed by a short url which does not exist it shows error
+           - a same website can be accessed by two different custom strings
 
