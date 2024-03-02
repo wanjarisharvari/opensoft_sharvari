@@ -1,12 +1,14 @@
 // Import required modules
 const express = require('express');
 const shortid = require('shortid');
+const path = require('path');
 
 // Create Express app
 const app = express();
 
 // Middleware
 app.use(express.json());
+app.use(express.static(path.join(__dirname)));
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
