@@ -16,10 +16,10 @@ This repo consist of code for the url shortner website
   - go to your browswer and type ```localhost:8001```
   - the functional website will open
 + Usage :
-  -copy the long URL which needs to be shortened
-  -provide a custom string if you want your site to be opened with a particular string in it (optional).
-  -click on submit button you will be provided with a link you can click on the link to access the site through shortened url
-  -you can even access the site by ```localhost:8001\(string)```
+  - copy the long URL which needs to be shortened
+  - provide a custom string if you want your site to be opened with a particular string in it (optional).
+  - click on submit button you will be provided with a link you can click on the link to access the site through shortened url
+  - you can even access the site by ```localhost:8001\(string)```
 + error handeling :
   - if the user provide a same custom string for two different url it shows error
   - if the some website is being accessed by a short url which does not exist it shows error
