@@ -4,7 +4,12 @@ This repo consist of code for the url shortner website
            the aim of this website is to provide a short url of a long url that will redirect you to the original website
 + features :
            the user has the freedom to provide custom strings and the short url will consist of that string
++ tech stack :
+             HTML, CSS, Javascript, ExpressJS
 + usage :
+  - To clone the repository, use the following command:
+```bash
+$ git clone https://github.com/username/repository.git
   - install all the code in a seperate directry
   - to run the code type node index.js
   - go to your browswer and type localhost:8001
