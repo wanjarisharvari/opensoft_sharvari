@@ -7,9 +7,11 @@ This repo consist of code for the url shortner website
 + tech stack :
              HTML, CSS, Javascript, ExpressJS
 + usage :
-  - To clone the repository, use the following command:
+  - Clone the repository using the following command:
     ```git clone https://github.com/wanjarisharvari/opensoft_sharvari```  
-  - install all the code in a seperate directry
+  - Open terminal and navigate to the clone reposiotry using ```cd repository```
+  - install dependicies using the command ```pip install npm```
+    ```npm install express```
   - to run the code type node index.js
   - go to your browswer and type localhost:8001
   - the functional website will open
