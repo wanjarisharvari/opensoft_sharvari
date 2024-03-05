@@ -13,11 +13,11 @@ This repo consist of code for the url shortner website
   - install dependicies using the command ```pip install npm``` and
     ```npm install express```
   - to run the code type ```node index.js```
-  - go to your browswer and type localhost:8001
+  - go to your browswer and type ```localhost:8001```
   - the functional website will open
 + error handeling :
   - if the user provide a same custom string for two different url it shows error
   - if the some website is being accessed by a short url which does not exist it shows error
   - a same website can be accessed by two different custom strings
-+ deployed website : https://opensoft-sharvari.vercel.app/
++ deployed website : https://opensoft-sharvari.vercel.app/ (temporarily not working)
 
