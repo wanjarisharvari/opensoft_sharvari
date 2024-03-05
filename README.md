@@ -8,8 +8,7 @@ This repo consist of code for the url shortner website
              HTML, CSS, Javascript, ExpressJS
 + usage :
   - To clone the repository, use the following command:
-```bash
-$ git clone https://github.com/username/repository.git
+```bash $ git clone https://github.com/username/repository.git'''
   - install all the code in a seperate directry
   - to run the code type node index.js
   - go to your browswer and type localhost:8001
